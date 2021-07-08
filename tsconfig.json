@@ -3,6 +3,20 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "core": [
+        "dist/core/core",
+        "dist/core"
+      ],
+      "predict-white-label-api": [
+        "dist/predict-white-label-api/predict-white-label-api",
+        "dist/predict-white-label-api"
+      ],
+      "shared": [
+        "dist/shared/shared",
+        "dist/shared"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
